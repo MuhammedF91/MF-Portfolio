@@ -16,30 +16,14 @@ An overview of my professional background in application support and customer‑
 
 ## Current Role
 
-### Senior Application Support Specialist — SIGMA‑EMEA
-**Sep 2021 – Present · Cairo, Egypt**
+### Senior Application Operations Engineer — Giza Arabia
+**Apr 2026 – Present · On‑site, KSA (STC)**
 
-Supporting enterprise telecom and digital applications across two major accounts.
+Operating **CRM** and **Billing** applications for STC's Fiber line of business (**FOM — Fiber Order Management**).
 
-#### Redbull Mobile Project (KSA) — Digital Mobile/Web App
-- Handle tickets and technical requests from end users.
-- Troubleshoot application and database issues using **Microsoft SQL Server**.
-- Write **PowerShell** scripts to automate routine tasks and generate reports.
-- Produce business and operational reports with **Power BI** and **Excel**.
-- Collaborate with business stakeholders to deploy new mobile app features and plans.
-- Monitor logs and system health via scripting and SQL.
-- Coordinate with the BSS team (Huawei) to keep data consistent across systems.
-
-#### STC Specialized Project (KSA) — BSS
-- Support **Nokia BSS applications** (SurePay, FlowOne, Data Refinery).
-- Run the monthly **billing cycle** and act as the technical SPOC.
-- Write **Bash** scripts for automation and monitoring.
-- Lead the L1 team and perform **Root Cause Analysis (RCA)** on failed requests.
-- Apply application **deployments / releases** delivered by vendors.
-- Run **disaster recovery testing** and production readiness checks.
-- Configure promotions and services on **UPC** (Charging System frontend).
-- Generate **financial reports** using **Oracle SQL**.
-- Contribute to integration testing, data analysis, and system configuration.
+- Operate and troubleshoot CRM and Billing systems on the FOM platform.
+- Work directly on **Linux** servers via terminal for day‑to‑day operations, log analysis, and scripting.
+- Query and investigate application data using **Oracle SQL**.
 
 ---
 
@@ -58,6 +42,31 @@ Supporting enterprise telecom and digital applications across two major accounts
 ---
 
 ## Previous Roles
+
+### Senior Application Support Specialist — SIGMA‑EMEA
+**Sep 2021 – Mar 2026 · Cairo, Egypt**
+
+Supported enterprise telecom and digital applications across two major accounts.
+
+#### Redbull Mobile Project (KSA) — Digital Mobile/Web App
+- Handled tickets and technical requests from end users.
+- Troubleshot application and database issues using **Microsoft SQL Server**.
+- Wrote **PowerShell** scripts to automate routine tasks and generate reports.
+- Produced business and operational reports with **Power BI** and **Excel**.
+- Collaborated with business stakeholders to deploy new mobile app features and plans.
+- Monitored logs and system health via scripting and SQL.
+- Coordinated with the BSS team (Huawei) to keep data consistent across systems.
+
+#### STC Specialized Project (KSA) — BSS
+- Supported **Nokia BSS applications** (SurePay, FlowOne, Data Refinery).
+- Ran the monthly **billing cycle** and acted as the technical SPOC.
+- Wrote **Bash** scripts for automation and monitoring.
+- Led the L1 team and performed **Root Cause Analysis (RCA)** on failed requests.
+- Applied application **deployments / releases** delivered by vendors.
+- Ran **disaster recovery testing** and production readiness checks.
+- Configured promotions and services on **UPC** (Charging System frontend).
+- Generated **financial reports** using **Oracle SQL**.
+- Contributed to integration testing, data analysis, and system configuration.
 
 ### Retail Sales Executive — Orange Egypt
 **2019**

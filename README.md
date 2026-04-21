@@ -52,7 +52,8 @@ I built this portfolio to:
 - **Home network monitor** on Raspberry Pi with Docker Compose, a Flask API, Oracle XE, and a GitHub Actions CI/CD pipeline.
 - **Secure remote access** to my home network using WireGuard + Cloudflare DDNS, with documented troubleshooting for NAT, routing, and DDNS issues.
 - **Multi‑environment workflow**: Mac Mini for development/testing, Raspberry Pi for production — bridged by the same container images.
-- **Application support at scale** on Nokia BSS (SurePay, FlowOne, Data Refinery) including monthly billing cycles, RCA, DR drills, and release deployments.
+- **Current role:** Senior Application Operations Engineer at Giza Arabia — operating CRM and Billing on STC's Fiber (FOM) platform with Linux and Oracle SQL.
+- **Previously at SIGMA‑EMEA:** application support at scale on Nokia BSS (SurePay, FlowOne, Data Refinery) including monthly billing cycles, RCA, DR drills, and release deployments.
 
 See the [DevOps Portfolio](./DevOps-Portfolio.md) for full project breakdowns.
 
