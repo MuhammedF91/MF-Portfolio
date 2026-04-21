@@ -22,8 +22,10 @@ An overview of my professional background in application support and customer‑
 Operating **CRM** and **Billing** applications for STC's Fiber line of business (**FOM — Fiber Order Management**).
 
 - Operate and troubleshoot CRM and Billing systems on the FOM platform.
-- Work directly on **Linux** servers via terminal for day‑to‑day operations, log analysis, and scripting.
+- Work directly on **Linux** servers via terminal for day‑to‑day operations and log analysis.
+- Write **Bash** scripts to automate routine operational tasks and monitoring.
 - Query and investigate application data using **Oracle SQL**.
+- Participate in the **on‑call rotation** to handle production incidents outside business hours.
 
 ---
 
