@@ -1,89 +1,109 @@
+# DevOps Portfolio — Muhammed Fahmi
 
-# 🛠️ DevOps Portfolio – Muhammed Fahmi
+A summary of my hands‑on DevOps experience through personal and home‑lab projects. This is not a code showcase; it's a written record of what I built, the tools I used, and the problems I solved along the way.
 
-Welcome! This repository is a summary of my hands-on experience in DevOps, showcasing the tools and practices I applied across several personal projects. This is not a code showcase but rather a documentation of what I’ve built and learned.
-
----
-
-## 🧠 Skills and Tools I’ve Worked With
-
-- **Operating Systems:** Linux (Ubuntu, Raspberry Pi OS), macOS
-- **Version Control:** Git, GitHub
-- **Containerization:** Docker, Docker Compose
-- **CI/CD:** GitHub Actions
-- **Web Servers & Reverse Proxies:** Nginx
-- **Databases:** Oracle XE (via Docker)
-- **Networking:** VPN (WireGuard), Port Forwarding, DDNS, Firewall Rules
-- **Frontend Dev:** HTML, CSS, JavaScript (basic)
-- **Backend Dev:** Python, Flask
-- **Others:** Cloudflare (DDNS), VS Code (Remote SSH/Docker Dev)
+> Looking for my work history? See [Professional Experience](./Professional-Experience.md).
 
 ---
 
-## 🚀 Projects & What I Used
+## Table of Contents
 
-### 📦 Home Network Monitor
+- [Skills and Tools](#skills-and-tools)
+- [Projects](#projects)
+  - [Home Network Monitor](#home-network-monitor)
+  - [Personal Website](#personal-website)
+  - [Remote Access with WireGuard VPN](#remote-access-with-wireguard-vpn)
+  - [DevOps Learning Lab](#devops-learning-lab)
+- [Connect](#connect)
 
-> A DevOps-style monitoring system running on Raspberry Pi and Docker.
+---
 
-**Tools & Tech:**
+## Skills and Tools
+
+| Category | Tools |
+|---|---|
+| Operating Systems | Linux (Ubuntu, Raspberry Pi OS), macOS |
+| Version Control | Git, GitHub |
+| Containerization | Docker, Docker Compose |
+| CI/CD | GitHub Actions |
+| Web Servers & Reverse Proxies | Nginx |
+| Databases | Oracle XE (via Docker) |
+| Networking | WireGuard VPN, Port Forwarding, DDNS, Firewall Rules |
+| Frontend (basic) | HTML, CSS, JavaScript |
+| Backend | Python, Flask |
+| Other | Cloudflare (DDNS), VS Code (Remote SSH / Dev Containers) |
+
+---
+
+## Projects
+
+### Home Network Monitor
+
+> A DevOps‑style monitoring system running on a Raspberry Pi with Docker.
+
+**Stack**
 - Docker & Docker Compose
-- Python Flask API
+- Python / Flask API
 - Oracle XE as database
-- CI/CD: GitHub Actions (build, test, push images)
-- Mac Mini as dev environment / Raspberry Pi as production
-- Cloudflare DDNS + WireGuard/for remote access
+- GitHub Actions for build, test, and image publishing
+- Mac Mini as dev environment, Raspberry Pi as production target
+- Cloudflare DDNS + WireGuard for remote access
+
+**What I learned**
+- Splitting a system into dev vs. production environments while keeping the same container images.
+- Running a CI/CD pipeline end‑to‑end on a home project without over‑engineering it.
 
 ---
 
-### 🌐 Personal Website
+### Personal Website
 
-> Static frontend + Flask backend + Dockerized Oracle DB
+> Static frontend + Flask backend + Dockerized Oracle DB, fronted by Nginx.
 
-**Tools & Tech:**
-- HTML/CSS + JS for frontend
-- Flask API for backend
-- Oracle XE DB (via Docker container)
+**Stack**
+- HTML / CSS / JavaScript frontend
+- Flask API backend
+- Oracle XE database in a Docker container
 - Nginx as reverse proxy
-- Docker Compose for multi-container setup
-- CI pipeline with GitHub Actions
-- Testing locally on Mac Mini, deploying on Raspberry Pi
+- Docker Compose for multi‑container orchestration
+- GitHub Actions CI pipeline
+- Tested locally on Mac Mini, deployed on Raspberry Pi
 
 ---
 
-### 🛡️ Remote Access with WireGuard VPN
+### Remote Access with WireGuard VPN
 
-> Set up secure remote access to my home network using WireGuard and Raspberry Pi.
+> Secure remote access to my home network using WireGuard on Raspberry Pi.
 
-**Tools & Tech:**
-- WireGuard VPN (configured on Raspberry Pi using PiVPN)
-- Cloudflare DDNS for dynamic IP
-- TP-Link Omada ER605 router: port forwarding & firewall configuration
-- Raspberry Pi used as a VPN gateway
+**Stack**
+- WireGuard VPN (configured on Raspberry Pi via PiVPN)
+- Cloudflare DDNS for dynamic public IP
+- TP‑Link Omada ER605 router: port forwarding & firewall configuration
+- Raspberry Pi as the VPN gateway
 
-**Challenges & Solutions:**
-- ❗ **Handshake failure** due to wrong port/NAT config ➜ ✅ Fixed by correcting port forwarding on TP-Link Omada router
-- ❗ **No internet over VPN** ➜ ✅ Resolved with proper routing config (`AllowedIPs` and IP forwarding)
-- ❗ **DDNS not updating** ➜ ✅ Used Cloudflare API script to automate DDNS updates
+**Challenges & Fixes**
+
+| Problem | Root cause | Fix |
+|---|---|---|
+| Handshake failure | Wrong port / NAT configuration | Corrected port forwarding on the Omada router |
+| No internet over VPN | Missing routing / IP forwarding | Configured `AllowedIPs` and enabled IP forwarding on the gateway |
+| DDNS not updating | Dynamic IP changed, no updater running | Automated updates via a Cloudflare API script |
 
 ---
 
-### 🔄 DevOps Learning Lab
+### DevOps Learning Lab
 
-> Simulated DevOps environment with microservices
+> A simulated DevOps environment to practice microservices, scripting, and multi‑environment workflows.
 
-**Tools & Tech:**
-- Multiple microservices in Docker Compose
+**Stack**
+- Multiple microservices orchestrated with Docker Compose
 - Oracle DB containers
-- Bash scripts for automation
-- Separate test (Mac Mini) vs prod (Raspberry Pi) environments
+- Bash scripts for setup and automation
+- Separate test (Mac Mini) and prod (Raspberry Pi) environments
 
 ---
 
-## 🔗 Connect with Me
+## Connect
 
-- LinkedIn: [linkedin.com/in/muhammedfahmi](https://www.linkedin.com/in/muhammedfahmi)
+- **LinkedIn:** [linkedin.com/in/muhammedfahmi](https://www.linkedin.com/in/muhammedfahmi)
 
----
-
-> 💡 *Feel free to reach out on LinkedIn if you’d like to discuss any of these projects or DevOps in general!*
+> Feel free to reach out on LinkedIn if you'd like to discuss any of these projects or DevOps in general.
