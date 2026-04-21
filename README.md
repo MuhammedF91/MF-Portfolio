@@ -44,6 +44,7 @@ I built this portfolio to:
 |---|---|
 | [DevOps Portfolio](./DevOps-Portfolio.md) | Tools, home‑lab projects, challenges solved, and lessons learned. |
 | [Professional Experience](./Professional-Experience.md) | Current and previous roles, responsibilities, and stacks used at work. |
+| [CV (PDF)](./Muhammed-Fahmi-CV.pdf) | One‑click, ATS‑friendly CV generated from the portfolio content. |
 
 ---
 
