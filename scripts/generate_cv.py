@@ -141,7 +141,13 @@ def build_story():
     story.append(Paragraph("Senior Application Operations Engineer", title_style))
     story.append(
         Paragraph(
-            "Cairo, Egypt (currently on-site in KSA) | "
+            "Date of Birth: 14 April 1991 | "
+            "Cairo, Egypt (currently on-site in KSA)",
+            contact_style,
+        )
+    )
+    story.append(
+        Paragraph(
             "LinkedIn: linkedin.com/in/muhammedfahmi | "
             "GitHub: github.com/MuhammedF91",
             contact_style,
